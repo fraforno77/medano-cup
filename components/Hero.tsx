@@ -2,21 +2,16 @@ export default function Hero() {
   return (
     <section
       style={{
-        backgroundImage: "url('/images/hero.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        height: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        background: "url('/images/hero.jpg') center center / cover no-repeat",
+        minHeight: "100vh",
       }}
     >
       <h1
         style={{
           color: "white",
-          fontSize: "5rem",
-          fontWeight: "bold",
-          textShadow: "0 4px 10px rgba(0,0,0,.6)",
+          fontSize: "80px",
+          textAlign: "center",
+          paddingTop: "200px",
         }}
       >
         MÉDANO CUP
